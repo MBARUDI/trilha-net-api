@@ -1,6 +1,28 @@
 # trilha-net-api
 conhecimentos adquiridos no módulo de API e Entity Framework
 
+Pontos finais
+
+Verbo	Ponto final	Parâmetro	Corpo
+PEGAR	/Tarefa/{id}	eu ia	N / D
+COLOCAR	/Tarefa/{id}	eu ia	Esquema Tarefa
+EXCLUIR	/Tarefa/{id}	eu ia	N / D
+PEGAR	/Tarefa/ObterTodos	N / D	N / D
+PEGAR	/Tarefa/ObterPorTítulo	título	N / D
+PEGAR	/Tarefa/ObterPorData	dados	N / D
+PEGAR	/Tarefa/ObterPorStatus	status	N / D
+PUBLICAR	/Tarefa	N / D	Esquema Tarefa
+Esse é o esquema (modelo) de Tarefa, utilizado para passar para os métodos que exigem
+
+{
+  "id": 0,
+  "titulo": "string",
+  "descricao": "string",
+  "data": "2022-06-08T01:31:07.056Z",
+  "status": "Pendente"
+}
+
+
 
 <!--
 **MBARUDI/MBARUDI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
